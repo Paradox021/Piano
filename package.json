@@ -1,0 +1,22 @@
+{
+  "name": "ejemplopianoempaquetador",
+  "version": "1.0.0",
+  "description": "proyect piano usando empaquetador",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parceñ src/index.html",
+    "prod":"npx parcel build sr/index.html",
+    "prod-github":"rd /S docs && npx parcel build src/index.html --public-url ./ --dist-dir docs"
+  },
+  "author": "Paradox",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tone": "^14.7.77"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  }
+}
